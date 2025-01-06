@@ -9,7 +9,7 @@ This script was part of research funded by and conducted for the Dragon 5 ESA (E
  - dl_environment.yml contains all the dependancies of the environment used to run the script
  - model.h5.png is visual representation of the model
 
-# Potential IMprovements
+# Potential Improvements
 Due to technical limitations (you can only train a so-large model on a decent laptop 🙂), the model trained had fairly few parameters. If this poses no limitations to you, the following options/improvements might be worth exploring:
 
 ## Data
