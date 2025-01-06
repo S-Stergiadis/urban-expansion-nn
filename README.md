@@ -25,7 +25,7 @@ Due to technical limitations (you can only train a so-large model on a decent la
 ## Model Architecture
 - The thresholding applied to the predictions could probably be incorporated into the model's architecture.
 - More complex models (e.g., more layers, more kernels, or both) could perform better.
-- While ConvLSTMs are good at capturing spatio-temporal patterns, there are newer models that can be tested if computational resources are available.
+- While ConvLSTMs are good at capturing spatio-temporal patterns, there are newer models that can be tested if computational resources are available. GAN's are good candidates that could also deal with the class imbalance as they learn the distribution of the data. Since the input data are images diffusion models could also be effective given their performance with image generation.
 
 ## Training
 - Include cross-validation if the dataset remains small.
@@ -36,4 +36,4 @@ Due to technical limitations (you can only train a so-large model on a decent la
 ## Approach
 
 - Instead of going for a "predict-the-next-frame" approach, a direct prediction would be better since the system's dynamics have a large timescale.
-- Try a pre-trained model for bacteria colony/fungus expansion prediction.
+- Try a pre-trained model for bacteria colony/fungus expansion prediction as the dynamics could be similar.
